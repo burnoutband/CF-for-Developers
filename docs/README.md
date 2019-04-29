@@ -380,6 +380,7 @@ Summary
 
 
 manifest.yml 내용 (for single app)
+```
 ---
 applications:
 - name: customer-1xyz
@@ -388,10 +389,12 @@ applications:
   path: ./build/libs/restwebservcice-1.jar
   services:
   - mysql
+```
 CF는 기본적으로 앱을 push 할때 모른다. CF CLI 는  jar파일이 어디있는지 모르기 때문에 jar file이 어디에 있는지 말해줘야 함. (난, CF 가 jar 파일위치를 모른다는 것으로 이해함)
 
 
 multiple-apps-manifest.yml 내용
+```
 ---
 applications:
 - name: customer
@@ -410,6 +413,7 @@ applications:
   path: ./path/to/bits
   services:
   - redis
+```
 
 참고: https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
 
