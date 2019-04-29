@@ -60,14 +60,14 @@ User-Provided Service (개념)
     * *We can create a space using the create-space command (create-space 명령으로 space 생성)*
     * *We can create a user-provided service using the cups command (cups 명령으로 user-provided service 생성)*
     * *We can push an app to PCF using the CF push command (CF push 명령으로 애플리케이션을 pcf에 배포)*
-    * *참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html*
+    * _참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html _
 ```
 로그인 명령어
 cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation
 ```
 
 # 5. PCF Architecture, Orgs, and Spaces
-* Take a look at followings:
+* Take a look at followings: 
     > * PCF deployment and conceptual architecture
     > * PCF logical and component architecture
     > * PCF orgs and spaces
@@ -98,10 +98,8 @@ cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --s
     > * Provisioning a service from the marketplace using the CF CLI (CF CLI 가지고 마켓플레이스에서 서비스 프로비저닝하기)
     > * What it means to bind a marketplace service to a java application (마켓플레이스 서비스를 자바 애플리케이션으로 바인드 하는 것의 의미)
 
-
-  
-* PCF Roles and Permissions
-
+ 
+## PCF Roles and Permissions
     Role|Permission
     --- | ---
     Admin|Has permissions on all orgs and spaces and can perform operational actions using the Cloud Controller API
@@ -130,7 +128,7 @@ HOWTO:
 * cf service appAutoscaler: check service status you created (생성한 서비스 상태 확인)
 ```
 
-* How to bind the marketplace service to your app (나의 앱과 마켓플레이스 서비스 연결: 요기서는 웹페이지에서 작업했삼)
+## How to bind the marketplace service to your app (나의 앱과 마켓플레이스 서비스 연결: 요기서는 웹페이지에서 작업했삼)
 HOWTO:
     * Login PWS -> Bind Service in this page
         <img src="./images/6_bind_service.png" width="700">   
@@ -151,22 +149,23 @@ HOWTO:
 
 
 
-7. Application Monitoring, Logs, and Build Packs
+# 7. Application Monitoring, Logs, and Build Packs
 * Take a look at followings:
-* Observing metrics in the PCF console (메트릭 보는 법)
-* Observing application logs in the PCF console (app log 보는 법)
-* Identifying what a build pack is in PCF (buildpack 은 무엇?)
-* Understanding of what is happening when we 'cf push' an app (앱 push 하면 무슨 일이 발생할까?)
+    > * Observing metrics in the PCF console (메트릭 보는 법)
+    > * Observing application logs in the PCF console (app log 보는 법)
+    > * Identifying what a build pack is in PCF (buildpack 은 무엇?)
+    > * Understanding of what is happening when we 'cf push' an app (앱 push 하면 무슨 일이 발생할까?)
 
 
-* What happens when I cf push?
+## What happens when I cf push?
 <HOWTO:>
+```
 create your app (in the cloud foundry): cf push 명령은 cloud controller를 호출하고 cloud controller에게 app을 생성하도록 시킨다.
 -> store your app (in the cloud foundry): app과 app 정보를 Blob Store에 upload 한다.
 -> notice your app (in the cloud foundry)
 -> containerize your app (in the cloud foundry): 해당 app을 실행하기 위해서 Diego brain은 리소스를 프로비저닝 (create cell and vm) 한다.
 -> deploy your app (in the cloud foundry): 해당 cell에 containerized app 복사본이 deploy 된다.
-
+```
 [그림삽입] 1:36
 
 <HOWTO:>
