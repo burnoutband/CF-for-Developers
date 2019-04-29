@@ -258,9 +258,9 @@ __(4) push your app again__
     > * Creating a new Spring boot application (스프링부트 애플리케이션 작성해보자잉)
 
 * JDK download (SE 1.8)
-* Eclispse STS IDE download
+* Eclispse STS IDE download  
 
-<HOWTO: Creating a new Spring boot application>
+_<HOWTO: Creating a new Spring boot application>_
 ```
 Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
 ```
