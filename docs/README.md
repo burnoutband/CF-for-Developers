@@ -228,7 +228,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
     ```
 
 ## Binding the service to our application
-<HOWTO: Binding the service to our application>
+HOWTO: Binding the service to our application
 ```
 Access pivotal.io
 -> go to your app
