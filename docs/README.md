@@ -72,7 +72,7 @@ cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --s
     > * PCF logical and component architecture
     > * PCF orgs and spaces
 
-* Global World Banking Service (요런 서비스를 개발/운영한다고 가정해보자)
+## Global World Banking Service (요런 서비스를 개발/운영한다고 가정해보자)
 * Service Area (오홍 나의 서비스 커버리지)
     <img src="./images/5_globalmap_banking_service.png" width="600">    
 
@@ -158,7 +158,7 @@ HOWTO:
 
 
 ## What happens when I cf push?
-<HOWTO:>
+HOWTO:
 ```
 create your app (in the cloud foundry): cf push 명령은 cloud controller를 호출하고 cloud controller에게 app을 생성하도록 시킨다.
 -> store your app (in the cloud foundry): app과 app 정보를 Blob Store에 upload 한다.
@@ -168,7 +168,7 @@ create your app (in the cloud foundry): cf push 명령은 cloud controller를 �
 ```
 [그림삽입] 1:36
 
-<HOWTO:>
+HOWTO:
 ```
 cd projects/deployment
 git clone https://github.com/Altoros/cf-example-sinatra
@@ -185,11 +185,11 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
 
 
 Summary (ch 1 ~7)
-* We setup our environment (환경셋팅 배웠음)
-* We explored different ways to interact with PCF (PCF 와 상호소통하는 여러방법을 알아봤음)
-* We learned about PCF conceptual and logical architecture (PCF의 개념적, 논리적 구조를 배웠음)
-* We learned about orgs, spaces, roles and permissions (orgs, space, roles and permissions에 대해서 배웠음)
-* We learned about  application monitoring, logging and buildpacks (앱 모니터링, 로깅, 빌드팩을 배웠음)
+_* We setup our environment (환경셋팅 배웠음)_
+_* We explored different ways to interact with PCF (PCF 와 상호소통하는 여러방법을 알아봤음)_
+_* We learned about PCF conceptual and logical architecture (PCF의 개념적, 논리적 구조를 배웠음)_
+_* We learned about orgs, spaces, roles and permissions (orgs, space, roles and permissions에 대해서 배웠음)_
+_* We learned about  application monitoring, logging and buildpacks (앱 모니터링, 로깅, 빌드팩을 배웠음)_
 
 
 
