@@ -142,10 +142,10 @@ HOWTO:
 
 
 * Summary
-    * Admin, org manager, org user provide high-level permissions (admin, org매니저, org유저는 높은수준의 권한을 갖는다잉)
-    * Space manager and space user privileges are usually for developers (Space 매니저와 Space 유저는 보통수준의 권한을 갖는다. 흠...보통이라..)
-    * The marketplace provides managed services like MySQL and Redis (마켓플레이스는 MySQL, Redis같은 매니지드 서비스를 제공한다.)
-    * Marketplace services are only accessible by apps within the same space (마켓플레이스 서비스는 같은 space안있는 앱들에 의해서만 접근가능!)
+    * _Admin, org manager, org user provide high-level permissions (admin, org매니저, org유저는 높은수준의 권한을 갖는다잉)_
+    * _Space manager and space user privileges are usually for developers (Space 매니저와 Space 유저는 보통수준의 권한을 갖는다. 흠...보통이라..)_
+    * _The marketplace provides managed services like MySQL and Redis (마켓플레이스는 MySQL, Redis같은 매니지드 서비스를 제공한다.)_
+    * _Marketplace services are only accessible by apps within the same space (마켓플레이스 서비스는 같은 space안있는 앱들에 의해서만 접근가능!)_
 
 
 
