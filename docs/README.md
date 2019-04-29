@@ -271,10 +271,10 @@ Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
 
 
 Summary
-* We can use Eclipse STS to create new spring boot apps
-* Spring boot apps can be built as JAR or WAR files
-* Maven or Gradle are used for application builds and dependency management
-* Eclipse uses Spring Initializer to generate our Spring boot projects
+    * _We can use Eclipse STS to create new spring boot apps_
+    * _Spring boot apps can be built as JAR or WAR files_
+    * _Maven or Gradle are used for application builds and dependency management_
+    * _Eclipse uses Spring Initializer to generate our Spring boot projects_
 
 
 
