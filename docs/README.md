@@ -185,11 +185,11 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
 
 
 Summary (ch 1 ~7)
-_* We setup our environment (환경셋팅 배웠음)_
-_* We explored different ways to interact with PCF (PCF 와 상호소통하는 여러방법을 알아봤음)_
-_* We learned about PCF conceptual and logical architecture (PCF의 개념적, 논리적 구조를 배웠음)_
-_* We learned about orgs, spaces, roles and permissions (orgs, space, roles and permissions에 대해서 배웠음)_
-_* We learned about  application monitoring, logging and buildpacks (앱 모니터링, 로깅, 빌드팩을 배웠음)_
+    * _We setup our environment (환경셋팅 배웠음)_
+    * _We explored different ways to interact with PCF (PCF 와 상호소통하는 여러방법을 알아봤음)_
+    * _We learned about PCF conceptual and logical architecture (PCF의 개념적, 논리적 구조를 배웠음)_
+    * _We learned about orgs, spaces, roles and permissions (orgs, space, roles and permissions에 대해서 배웠음)_
+    * _We learned about  application monitoring, logging and buildpacks (앱 모니터링, 로깅, 빌드팩을 배웠음)_
 
 
 
