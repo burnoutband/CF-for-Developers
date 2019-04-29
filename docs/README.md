@@ -1,7 +1,7 @@
 # Learning the Cloud Foundry for Web Developers
 
 ## Table of Contents
-1.
+
 2. [Setting Up Your Workspace](#2SUYW)
 3. [Navigating the PCF Console](#3NPC)
 4. [Using the CF command line interface to interact with PCF](#4UCLIWP)
@@ -42,6 +42,7 @@
 39. [Deploying the Microservices to PCF Using a Manifest](#39DMCM)
 40. [Config, Discovery and Circuit-Breaker Dashboards](#40CDCBD)
 41. [Spring Boot Actuator and Refreshing Properties](#41SBARP)
+
 
 <a name="2SUYW"></a>
 # 2. Setting Up Your Workspace
