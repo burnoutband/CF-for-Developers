@@ -108,6 +108,8 @@ User-Provided Service (개념)
 cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation
 ```
 
+
+<a name="5PAOS"></a>
 # 5. PCF Architecture, Orgs, and Spaces
 * Take a look at followings: 
     > * PCF deployment and conceptual architecture
@@ -133,6 +135,7 @@ cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --s
     * *Applications and Resources are organized into orgs and spaces (애플리케이션과 리소스들은 org와 space로 조직화 되어 있음)*
 
 
+<a name="6RPMS"></a>
 # 6. Roles, Permissions and Marketplace Services
 * Take a look at followings: (요런걸 살펴보시겠다)
     > * PCF Roles and Their Permissions (PCF의 역할과 권한)
@@ -191,7 +194,7 @@ HOWTO:
 
 
 
-
+<a name="7AMLBP"></a>
 # 7. Application Monitoring, Logs, and Build Packs
 * Take a look at followings:
     > * Observing metrics in the PCF console (메트릭 보는 법)
@@ -238,6 +241,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
 
 # Develop and Deploy a Web Service to PCF (Section 2)
 
+<a name="8PSDPM"></a>
 # 8. Provisioning a SQL Database from the PCF Marketplace
 * Take a look at followings:
     > * How to provision a database from the marketplace (마켓플레이스에서 데이터베이스 가져다가 프로비저닝하기) 
@@ -295,6 +299,7 @@ __(4) push your app again__
     - When  an app is bound to a service, PCF passes the credentials to the  app via the VCAP_SERVICES runtime argument
 
 
+<a name="9UECSBA"></a>
 # 9. Using Eclipse to Create a New Spring Boot Application
 * Take a look at followings:
     > * Navigating the Eclipse STS IDE (이클립스 STS IDE 살펴보자잉)
@@ -320,7 +325,7 @@ Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
     * _Eclipse uses Spring Initializer to generate our Spring boot projects_
 
 
-
+<a name="10LACBYA"></a>
 # 10. Leveraging Auto Configuration to Bootstrap Your Application
 * Take a look at followings:
 * How PCF adds a profile to our application
@@ -364,7 +369,8 @@ Summary
 * Spring auto-configuration helps developers finish application faster
 
 
-11. Creating Your Application’s Manifest YAML File
+<a name="11CYAMY"></a>
+# 11. Creating Your Application’s Manifest YAML File
 * Take a look at followings:
 * What role a manifest YAML file plays when pushing an application to PCF (앱을 push 할때, manifest 의 역할이 무엇일까?)
 * A manifest that describes a single app (싱글 앱설정을 위한 manifest)
@@ -416,7 +422,8 @@ Summary
 * The manifest YAML is only used by PCF during the CF push process. (manifest.yml은 CF가 사용하는 설정파일임: CF를 위해서 작성하는 거임)
 
 
-12. Developing Our Web Service and Building it Using Gradle
+<a name="12DOWSBG"></a>
+# 12. Developing Our Web Service and Building it Using Gradle
 * Take a look at followings: (흠. 이 챕터가 spring boot 배우는 챕터인 듯)
 * Developing our web service 
 * Using Spring data to persist and retrieve an object from our database
@@ -434,7 +441,8 @@ Summary
 * Gradle  looks for the build.gradle, written in groovy
 
 
-13. Deploying Your Application to PCF Using the CF Command Line
+<a name="13DYAPCCL"></a>
+# 13. Deploying Your Application to PCF Using the CF Command Line
 * Take a look at followings:
 * Deploying our application to PCF
 
@@ -450,7 +458,8 @@ Summary
 * Once pushed, we can monitor the running  application in the PCF web console
 
 
-14. Viewing the Final App and Testing with Postman
+<a name="14VFATP"></a>
+# 14. Viewing the Final App and Testing with Postman
 * Take a look at followings:
 * Using Postman to test our app
 
@@ -471,7 +480,9 @@ Summary
 * Confirming your application works by viewing messages in the RabbitMQ Dashboard (RabbitMQ 대쉬보드에서 메세지 확인하여, 앱 작동을 컨펌하기)
 
 
-15. Provisioning a RabbitMQ Message Broker from the PCF Marketplace
+
+<a name="15PRMBPM"></a>
+# 15. Provisioning a RabbitMQ Message Broker from the PCF Marketplace
 * Take a look at followings:
 * Creating a RabbitMQ marketplace service (RabbitMQ 서비스 생성)h
 * Logging into the RabbitMQ dashboard (RabbitMQ 대시보드 에 로그인하기)
@@ -498,7 +509,10 @@ Summary
 * We can provision RabbitMQ from the marketplace
 * Once RabbitMQ is provisioned, we can access the RabbitMQ console to create channels and queues
 
-16. Developing the Producer and Consumer Applications with Spring Boot
+
+
+<a name="16DPCASB"></a>
+# 16. Developing the Producer and Consumer Applications with Spring Boot
 * Take a look at followings:
 * Creating the consumer application using Eclipse
 * Boot strapping a RabbitMQ listener within your application
@@ -523,7 +537,9 @@ Summary
 * With developers releasing micro-services more quickly, businesses become more agile (개발자들이 더 빨리 마이크로 서비스를 내놓으므로써, 비지니스가 더 민첩해진다)
 
 
-17. How PCF Injects Properties into Your App for Auto Configuration
+
+<a name="17HIPYAAC"></a>
+# 17. How PCF Injects Properties into Your App for Auto Configuration
 * Take a look at followings:
 * How to access the VCAP_SERVICES from within your app (너으 앱안에서 VCAP_SERVICES 를 접근하는 방법)
 * Printing a credential from VCAP_SERVICES to the console (VCAP_SERVICES에서 credentials을 콘솔로 프린팅하는 법)
@@ -536,7 +552,9 @@ Summary
 * VCAP_SERVICES is a JSON string (JSON 포멧임)
 * An example of the credentials are host address, username, password
 
-18. Building Your Application Using Maven
+
+<a name="18BYAM"></a>
+# 18. Building Your Application Using Maven
 * Take a look at followings: 
 * Using Eclipse Maven to clean your application (maven clean 이해)
 * Using Eclipse Maven to install your application (maven install 이해)
@@ -562,7 +580,8 @@ Summary
 * You can visit maven central to view publicly accessible code libraries 
 
 
-19. Deploying Your Application Using the CF Command Line Without Manifest YAML File
+<a name="19DYACLWMY"></a>
+# 19. Deploying Your Application Using the CF Command Line Without Manifest YAML File
 * Take a look at followings: 
 * Creating a cf push command to push our app without a manifest YAML (manifest.yml 없이 앱 push 를 위한 cf push 명령어 만들기)
 * Pushing our app without a manifest YAML (manifest.yml 없이 앱 push 하기)
@@ -578,7 +597,8 @@ Summary
 * We can also apply properties and bind services to our apps via the CF CLI
 
 
-20. Confirming Your Application Works by Viewing Messages in the RabbitMQ Dashboard
+<a name="20CYAWVMRD"></a>
+# 20. Confirming Your Application Works by Viewing Messages in the RabbitMQ Dashboard
 * Take a look at followings: 
 * Publish a message to our app using Postman
 * View the message in the RabbitMQ dashboard
@@ -590,9 +610,10 @@ Summary
 * We can leverage auto configuration to developer event-driven micro-services with minimal code
 
 
-Mastering Pivotal Cloud Foundry for Web Developers
+# Mastering Pivotal Cloud Foundry for Web Developers
 
-21. The Course Overview
+<a name="21TCO"></a>
+# 21. The Course Overview
 * Section 1 - PCF Core Concepts Advanced
 * Section 2 - PCF Architecture
 * Section 3 - Deploy a Micro-services Supporting Architecture to PCF
@@ -615,7 +636,8 @@ Mastering Pivotal Cloud Foundry for Web Developers
 * Route services, volume services, and user-provided services (cf cups) (라우트 서비스, 볼륨 서비스, 사용자 제공 서비스)
 
 
-22. CI with Jenkins and Disaster Recovery Strategies
+<a name="22CJDRS"></a>
+# 22. CI with Jenkins and Disaster Recovery Strategies
 * Take a look at followings:
 * Using the Cloud Foundry plugin for Jenkins to push our application to PCF (젠킨스가 우리 앱을 pcf에 배포하기위해서 필요한 Cloud Foudry 플러그인 사용하기)
 * A deployment model for achieving high availability for PCF (고가용성 획득을 위한 배포 모델)
@@ -662,7 +684,8 @@ Summary
 * Studied Active-Passive is when requests are only sent to the disaster recovery (DR) PCF installation if the primary installation goes down (사용자 요청이 Primary 인스턴스가 다운되었을 경우에 Backup(DR) 인스턴스로 라우팅 될때는 AP 임)
 
 
-23. Security Groups and Container-to-Container Security
+<a name="23SGCCS"></a>
+# 23. Security Groups and Container-to-Container Security
 *  Take a look at followings:
 * Managing application security in PCF
 * Container-to-container security in PCF
@@ -709,8 +732,8 @@ Summary
 
 
 
-24. Resource Limitations in PCF
-
+<a name="24RLCF"></a>
+# 24. Resource Limitations in PCF
 
 
 * Diego Cell is VM.
@@ -720,7 +743,8 @@ Summary
 * Understood that the network throughput is determined by the configuration of the underlying infrastructure/virtual machines
 
 
-25. Exploring the PCF Log Aggregator
+<a name="25EPLA"></a>
+# 25. Exploring the PCF Log Aggregator
 * Take a look at followings:
 * How to monitor streaming logs in the PCF web console using the PCF loggregator
 * Other options for operational intelligence with PCF, including integration the ELK stack and Splunk, as well as performance monitoring tools like AppDynamics
@@ -745,7 +769,8 @@ Summary
 * Found that the loggregator aggregates logs from all of an apps instances so we can view the logs in a central location (로그리게이터는 앱인스턴스들의 모든 로그를 수집하여, 중앙위치에서 볼 수 있게함)
 
 
-26. Auto-Scaling Apps and the Cloud Foundry SDK
+<a name="26ASACFSDK"></a>
+# 26. Auto-Scaling Apps and the Cloud Foundry SDK
 * Take a look at followings:
 * Binding an AppAutoscaler from the marketplace to our applications in PCF
 * Understanding the AppAutoscaler marketplace service
@@ -764,7 +789,8 @@ Summary
 * The AppAutoscaler service polls apps for high CPU utilization and creates a nd removes app instances accordingly
 
 
-27. Route, Volume, and User-Provided Services
+<a name="27RVUPS"></a>
+# 27. Route, Volume, and User-Provided Services
 * Take a look at followings:
 * What the benefits of route services are and how to provision them
 * What the benefits of volume services are and how to provision them
@@ -789,18 +815,44 @@ Summary
 
 
 
+<a name="28ABGD"></a>
+# 28. Achieve a Blue-Green Deployment
 
-28. Achieve a Blue-Green Deployment
-29. Cloud Controller and the CF API
-30. Route Traffic with CF Gorouter
-31. The Garden Container
-32. The Diego Brain and Allocation of Resources
-33. The Internal PCF OAuth 2.0 Auth Server (UAA)
-34. Understanding, Provisioning and Configuring the Config Server
-35. Creating and Manipulating the Discovery Server
-36. Constructing the Circuit-Breaker Dashboard
-37. Understanding Hystrix and Circuit- Breaker Pattern
-38. Bootstrapping the Microservices to Connect to the Supporting Services
-39. Deploying the Microservices to PCF Using a Manifest
-40. Config, Discovery and Circuit-Breaker Dashboards
-41. Spring Boot Actuator and Refreshing Properties
+<a name="29CCCAPI"></a>
+# 29. Cloud Controller and the CF API
+
+<a name="30RTCGOR"></a>
+# 30. Route Traffic with CF Gorouter
+
+<a name="31TGC"></a>
+# 31. The Garden Container
+
+<a name="32DBAR"></a>
+# 32. The Diego Brain and Allocation of Resources
+
+<a name="33ICFOSUAA"></a>
+# 33. The Internal PCF OAuth 2.0 Auth Server (UAA)
+
+<a name="34UPCCS"></a>
+# 34. Understanding, Provisioning and Configuring the Config Server
+
+<a name="35CMDS"></a>
+# 35. Creating and Manipulating the Discovery Server
+
+<a name="36CCBD"></a>
+# 36. Constructing the Circuit-Breaker Dashboard
+
+<a name="37UHCBP"></a>
+# 37. Understanding Hystrix and Circuit- Breaker Pattern
+
+<a name="38BMCSS"></a>
+# 38. Bootstrapping the Microservices to Connect to the Supporting Services
+
+<a name="39DMCM"></a>
+# 39. Deploying the Microservices to PCF Using a Manifest
+
+<a name="40CDCBD"></a>
+# 40. Config, Discovery and Circuit-Breaker Dashboards
+
+<a name="41SBARP"></a>
+# 41. Spring Boot Actuator and Refreshing Properties
