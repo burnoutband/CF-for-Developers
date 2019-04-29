@@ -1,6 +1,6 @@
 # Learning the Cloud Foundry for Web Developers
 * 이 문서는 웹개발자들이 Cloud Foundry 를 사용함에 있어 티끌이나마 도움이 되고자 작성되었음.  
-    (_Written by @burnoutband_)
+    (_By @burnoutband_)
 
 ## Table of Contents
 1. [ Overview](#1OV)
