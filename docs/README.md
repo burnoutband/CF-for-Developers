@@ -208,7 +208,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
 
 ## Selecting and provisioning a SQL database from the marketplace
 * Provisioning a Database from Marketplace  
-    HOWTO: Provisioning a Database from Marketplace
+    - HOWTO: Provisioning a Database from Marketplace
     ```
     Access pivotal.io -> Select your Space -> click Services tab -> add service -> select clearDB MySQL DB
     ```
@@ -216,7 +216,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
     - The resource for db is handled automatically by Diego Brain
 
 * Checking information about DB  
-    HOWTO: Checking information about DB
+    - HOWTO: Checking information about DB
     ```
     Access pivotal.io 
     -> Select your Space 
