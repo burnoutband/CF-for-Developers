@@ -264,10 +264,10 @@ __(4) push your app again__
 ```
 Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
 ```
+<img src="./images/9_eclipse_sts_1.png" width="500">    
 
 * jar / war -> 여기서 jar 선택한 이유는 임베디드 되어 있는 서버 컨테이너를 가지고 있고 거기서 실행될거라고 생각하기 때문임. 마치 임베디드 톰캣처럼... 
-* 
-* 
+<img src="./images/9_eclipse_sts_2.png" width="500">    
 
 
 Summary
