@@ -41,7 +41,7 @@ User-Provided Service (개념)
 >
 > * Once created, user-provided service instances behave like service instances created through the marketplace; see managing service instances and application binding for details on listing, renaming, deleting, binding, and unbinding
 
-* 정리
+* 내용
     * UPS: CF에 배포된 앱이 CF 외부에 위치한 외부서비스와 통신하기 위해서 credential을 주입해주고, 앱의 로그를 외부로그집계 서비스 (syslog 호환규격)에 스트리밍 할 수 있게 한다.
     * CF User Provided Service
     * Usage: cf cups
@@ -54,43 +54,41 @@ User-Provided Service (개념)
     * Stream Application Logs to a Service:
         * UPS 인스턴스를 사용하면 개발자는 응용 프로그램 로그를 PCF 외부에서 관리되는 syslog 호환 집계 서비스로 스트리밍 할 수 있습니다
 * Summary
-    * UPS (User-Provided Service): CF에 배포된 앱이 CF 외부에 위치한 외부서비스와 통신하기 위해서 credential을 주입해주고, 앱의 로그를 외부로그집계 서비스 (syslog 호환규격)에 스트리밍 할 수 있게 한다.
-    * We can login to PCF using the CF CLI with CF Login Command (CF CLI에서 CF login 명령으로 PCF에 로그인)
-    * We can create an org using the create-org command (create-org 명령으로 org 생성)
-    * We can create a space using the create-space command (create-space 명령으로 space 생성)
-    * We can create a user-provided service using the cups command (cups 명령으로 user-provided service 생성)
-    * We can push an app to PCF using the CF push command (CF push 명령으로 애플리케이션을 pcf에 배포)
-    * 참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html 
+    __* __UPS (User-Provided Service): CF에 배포된 앱이 CF 외부에 위치한 외부서비스와 통신하기 위해서 credential을 주입해주고, 앱의 로그를 외부로그집계 서비스 (syslog 호환규격)에 스트리밍 할 수 있게 한다.____
+    __* We can login to PCF using the CF CLI with CF Login Command (CF CLI에서 CF login 명령으로 PCF에 로그인)__
+    __* We can create an org using the create-org command (create-org 명령으로 org 생성)__
+    __* We can create a space using the create-space command (create-space 명령으로 space 생성)__
+    __* We can create a user-provided service using the cups command (cups 명령으로 user-provided service 생성)__
+    __* We can push an app to PCF using the CF push command (CF push 명령으로 애플리케이션을 pcf에 배포)__
+    __* 참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html __
 
-cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation
-
-
+`로그인 명령어 : cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation`
 
 
 
-5. PCF Architecture, Orgs, and Spaces
+# 5. PCF Architecture, Orgs, and Spaces
 * Take a look at followings: 
-* PCF deployment and conceptual architecture
-* PCF logical and component architecture
-* PCF orgs and spaces
+> * PCF deployment and conceptual architecture
+> * PCF logical and component architecture
+> * PCF orgs and spaces
 
 * Global World Banking Service (요런 서비스를 개발/운영한다고 가정해보자)
 * Service Area (오홍 나의 서비스 커버리지)
-* 
+<img src="./images/5_globalmap_banking_service.png" width="500">  
 
 * Banking Service Logical architecture (이런 형상으로 애플리케이션을 유지: Dev, QA, Prod)
-* 
+<img src="./images/5_Bankingservice_logicalArchitecture.png" width="500">  
 
 * CF Architecture for Banking Service (레알 CF 내부 구조)
-* 
+<img src="./images/5_PCF_Architecture.png" width="500">   
 
 * Summary
-    * PCF is made up of over 15 specialized Ruby/Go Apps (PCF는 루비/Go 앱으로 구성되어 있음)
-    * The Diego brain is a service within PCF that allocates resources (디에고 브레인은 리소스 할당하는 서비스 임)
-    * The CF Router facilitates routing and service registry within PCF (CF 라우터는 PCF내에서 라우팅과 서비스 등록을 담당)
-    * The Cloud Controller exposes a REST interface (클라우드 컨트롤러는 REST API 인터페이스를 노출시킴)
-    * The UAA is an OAuth 2 Server within PCF (UAA는 PCF의 Oauth2 서버임)
-    * Applications and Resources are organized into orgs and spaces (애플리케이션과 리소스들은 org와 space로 조직화 되어 있음)
+    _* PCF is made up of over 15 specialized Ruby/Go Apps (PCF는 루비/Go 앱으로 구성되어 있음)_
+    _* The Diego brain is a service within PCF that allocates resources (디에고 브레인은 리소스 할당하는 서비스 임)_
+    _* The CF Router facilitates routing and service registry within PCF (CF 라우터는 PCF내에서 라우팅과 서비스 등록을 담당)_
+    _* The Cloud Controller exposes a REST interface (클라우드 컨트롤러는 REST API 인터페이스를 노출시킴)_
+    _* The UAA is an OAuth 2 Server within PCF (UAA는 PCF의 Oauth2 서버임)_
+    _* Applications and Resources are organized into orgs and spaces (애플리케이션과 리소스들은 org와 space로 조직화 되어 있음)_
 
 
 
