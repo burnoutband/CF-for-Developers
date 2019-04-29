@@ -1,9 +1,9 @@
 # Learning the Cloud Foundry for Web Developers
 
 ## Table of Contents
-[2.Setting Up Your Workspace](#2SUYW)
-[3.Navigating the PCF Console](#3NPC)
-[4.Using the CF command line interface to interact with PCF](#4UCLIWP)
+[2 Setting Up Your Workspace](#2SUYW)
+[3 Navigating the PCF Console](#3NPC)
+[4 Using the CF command line interface to interact with PCF](#4UCLIWP)
 [5.PCF Architecture, Orgs, and Spaces](#5PAOS)
 [6.Roles, Permissions and Marketplace Services](#6RPMS)
 [7.Application Monitoring, Logs, and Build Packs](#7AMLBP)
