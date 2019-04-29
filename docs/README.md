@@ -42,7 +42,7 @@
 40. [Config, Discovery and Circuit-Breaker Dashboards](#40CDCBD)
 41. [Spring Boot Actuator and Refreshing Properties](#41SBARP)
 
-<a name="#2SUYW"></a>
+<a name="2SUYW"></a>
 # 2. Setting Up Your Workspace
 * Required Downloads
 * Eclipse STS v4.7.0 (as our IDE)
@@ -62,7 +62,7 @@
 * manifest.yml 에 선언된 대로 앱 생성됨. 
 
 
-<a name="#3NPC"></a>
+<a name="3NPC"></a>
 # 3. Navigating the PCF Console
 * The differences between PCF, PWS and PCF Dev
 * Signing up for PWS and navigating the console
@@ -73,7 +73,7 @@
 * PWS: https://run.pivotal.io/
 
 
-
+<a name="4UCLIWP"></a>
 # 4. Using the CF command line interface to interact with PCF
 * Take a look at following: 
 User-Provided Service (개념)
