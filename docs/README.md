@@ -215,7 +215,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
     - We got DB immediately without DB installation!! This is the big benefits of Cloud Foundry.  
     - The resource for db is handled automatically by Diego Brain
 
-* Checking information about DB. 
+* Checking information about DB  
     HOWTO: Checking information about DB
     ```
     Access pivotal.io 
