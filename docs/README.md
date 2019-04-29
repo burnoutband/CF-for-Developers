@@ -93,10 +93,10 @@ User-Provided Service (개념)
 
 # 6. Roles, Permissions and Marketplace Services
 * Take a look at followings: (요런걸 살펴보시겠다)
-    * > PCF Roles and Their Permissions (PCF의 역할과 권한)
-    * > Provisioning a service from the marketplace using the web console (웹콘솔가지고 마켓플레이스에서 서비스 프로비저닝하기)
-    * > Provisioning a service from the marketplace using the CF CLI (CF CLI 가지고 마켓플레이스에서 서비스 프로비저닝하기)
-    * > What it means to bind a marketplace service to a java application (마켓플레이스 서비스를 자바 애플리케이션으로 바인드 하는 것의 의미)
+    > * PCF Roles and Their Permissions (PCF의 역할과 권한)
+    > * Provisioning a service from the marketplace using the web console (웹콘솔가지고 마켓플레이스에서 서비스 프로비저닝하기)
+    > * Provisioning a service from the marketplace using the CF CLI (CF CLI 가지고 마켓플레이스에서 서비스 프로비저닝하기)
+    > * What it means to bind a marketplace service to a java application (마켓플레이스 서비스를 자바 애플리케이션으로 바인드 하는 것의 의미)
 
 
 * PCF Roles and Permissions
