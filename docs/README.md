@@ -101,16 +101,16 @@ User-Provided Service (개념)
 
 * PCF Roles and Permissions
 
-|Role|Permission|
-|Admin|Has permissions on all orgs and spaces and can perform operational actions using the Cloud Controller API|
-|Admin Read-Only| Has read-only access to all Cloud Controller API resources |
-|Global Auditor | Has read-only access to all Cloud Controller API resources except for secrets such as environment variables |
-|Org Managers |Can administer the org|
-|Org Auditors|Can view but cannot edit user information and org quota usage information|
-|Org Billing Managers |Can create and manage billing account and payment information |
-|Space Managers | Can administer a space within an org |
-|Space Developers |Can manage applications and services in a space |
-|Space Auditors |Can view but cannot edit the space |
+Role|Permission
+Admin|Has permissions on all orgs and spaces and can perform operational actions using the Cloud Controller API
+Admin Read-Only| Has read-only access to all Cloud Controller API resources 
+Global Auditor | Has read-only access to all Cloud Controller API resources except for secrets such as environment variables 
+Org Managers |Can administer the org
+Org Auditors|Can view but cannot edit user information and org quota usage information
+Org Billing Managers |Can create and manage billing account and payment information 
+Space Managers | Can administer a space within an org 
+Space Developers |Can manage applications and services in a space 
+Space Auditors |Can view but cannot edit the space 
 
 
 * Push app, change app, scale app, delete app and create/use a marketplace service
