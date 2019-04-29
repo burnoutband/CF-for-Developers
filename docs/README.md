@@ -32,15 +32,14 @@
 
 
 
-4. Using the CF command line interface to interact with PCF
+# 4. Using the CF command line interface to interact with PCF
 * Take a look at following: 
 User-Provided Service (개념)
+> * UPS instances enable developers to use services that are not available in the marketplace with their applications running on Cloud Foundry (유저제공서비스 인스턴스들 CF상의 app이 CF 마켓에서 사용할 수 없는 서비스를 개발자가 사용할 수 있게 해줌)
 
-* UPS instances enable developers to use services that are not available in the marketplace with their applications running on Cloud Foundry (유저제공서비스 인스턴스들 CF상의 app이 CF 마켓에서 사용할 수 없는 서비스를 개발자가 사용할 수 있게 해줌)
+> * User-provided service instances can be used to deliver service credentials to an application, and/or to trigger streaming of application logs to a syslog compatible consumer. (사용자 제공 서비스 인스턴스를 사용하여 서비스 자격 증명을 응용 프로그램에 전달하거나 응용 프로그램 로그를 syslog 호환 가능 consumer에게 스트리밍 할 수 있습니다)
 
-* User-provided service instances can be used to deliver service credentials to an application, and/or to trigger streaming of application logs to a syslog compatible consumer. (사용자 제공 서비스 인스턴스를 사용하여 서비스 자격 증명을 응용 프로그램에 전달하거나 응용 프로그램 로그를 syslog 호환 가능 consumer에게 스트리밍 할 수 있습니다)
-
-* Once created, user-provided service instances behave like service instances created through the marketplace; see managing service instances and application binding for details on listing, renaming, deleting, binding, and unbinding
+> * Once created, user-provided service instances behave like service instances created through the marketplace; see managing service instances and application binding for details on listing, renaming, deleting, binding, and unbinding
 
 * 정리
     * UPS: CF에 배포된 앱이 CF 외부에 위치한 외부서비스와 통신하기 위해서 credential을 주입해주고, 앱의 로그를 외부로그집계 서비스 (syslog 호환규격)에 스트리밍 할 수 있게 한다.
