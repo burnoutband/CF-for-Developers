@@ -212,8 +212,8 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
     ```
     Access pivotal.io -> Select your Space -> click Services tab -> add service -> select clearDB MySQL DB
     ```
-    - We got DB immediately without DB installation!! This is the big benefits of Cloud Foundry.  
-    - The resource for db is handled automatically by Diego Brain
+        + We got DB immediately without DB installation!! This is the big benefits of Cloud Foundry.  
+        + The resource for db is handled automatically by Diego Brain
 
 * Checking information about DB  
     - HOWTO: Checking information about DB
