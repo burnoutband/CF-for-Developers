@@ -260,7 +260,7 @@ __(4) push your app again__
 * JDK download (SE 1.8)
 * Eclispse STS IDE download  
 
-_<HOWTO: Creating a new Spring boot application>_
+__<HOWTO: Creating a new Spring boot application>__
 ```
 Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
 ```
