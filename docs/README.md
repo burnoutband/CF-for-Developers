@@ -270,7 +270,7 @@ Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
 <img src="./images/9_eclipse_sts_2.png" width="500">    
 
 
-Summary
+* Summary
     * _We can use Eclipse STS to create new spring boot apps_
     * _Spring boot apps can be built as JAR or WAR files_
     * _Maven or Gradle are used for application builds and dependency management_
