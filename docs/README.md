@@ -46,6 +46,7 @@
 
 <a name="1OV"></a>
 # 1. Overview
+이 문서는 웹개발자들이 Cloud Foundry 를 사용함에 있어 티끌이나마 도움이 되고자 작성되었음. - @burnoutband (Josh Daeseon Kim)-
 
 <a name="2SUYW"></a>
 # 2. Setting Up Your Workspace
