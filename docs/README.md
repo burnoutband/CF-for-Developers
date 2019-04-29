@@ -207,7 +207,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
     > * @마켓플레이스 서비스프로비저닝 -> @이클립스 사용 -> @앱구동 자동설정 -> @앱 매니페스트 생성 -> @앱 빌드 (with gradle) -> @앱 배포 (cf push) -> @앱 모니터링 및 테스트
 
 ## Selecting and provisioning a SQL database from the marketplace
-* Provisioning a Database from Marketplace
+* Provisioning a Database from Marketplace  
     HOWTO: Provisioning a Database from Marketplace
     ```
     Access pivotal.io -> Select your Space -> click Services tab -> add service -> select clearDB MySQL DB
@@ -215,7 +215,7 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
     - We got DB immediately without DB installation!! This is the big benefits of Cloud Foundry.  
     - The resource for db is handled automatically by Diego Brain
 
-* Checking information about DB
+* Checking information about DB. 
     HOWTO: Checking information about DB
     ```
     Access pivotal.io 
