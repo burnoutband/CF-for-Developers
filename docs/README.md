@@ -237,22 +237,22 @@ Access pivotal.io
 -> select cleardb service
 ```
 
-* Summary
+* Summary  
 __(1) service provisioning from marketplace ->__
 __(2) bind the service to you app ->__
 __(3) Restaging your app ->__
 __(4) push your app again__
 
-* DB서비스를 앱에 bind 하면, 프로비저닝 된 서비스를 니 앱에 바인드하면 너의 앱을 다시 스테이징 하고 앱을 다시 push 해야 한다. 그리고 VCAP서비스에 의해서 런타임 파라미터에 DB서비스에 대한 Credential이 너의 앱에 주입된다.
-* (1),(2) 는 개발자수행 3,4 는 CF수행
-* We can select a suitable data store from the marketplace 
-* We can choose the space that we want the service to be available in
-* Databases in the PWS marketplace are fully-managed
-* We can bind  an app to a marketplace service
-* When  an app is bound to a service, PCF passes the credentials to the  app via the VCAP_SERVICES runtime argument
+    - DB서비스를 앱에 bind 하면, 프로비저닝 된 서비스를 니 앱에 바인드하면 너의 앱을 다시 스테이징 하고 앱을 다시 push 해야 한다. 그리고 VCAP서비스에 의해서 런타임 파라미터에 DB서비스에 대한 Credential이 너의 앱에 주입된다.
+    - (1),(2) 는 개발자수행 3,4 는 CF수행
+    - We can select a suitable data store from the marketplace 
+    - We can choose the space that we want the service to be available in
+    - Databases in the PWS marketplace are fully-managed
+    - We can bind  an app to a marketplace service
+    - When  an app is bound to a service, PCF passes the credentials to the  app via the VCAP_SERVICES runtime argument
 
 
-9. Using Eclipse to Create a New Spring Boot Application
+# 9. Using Eclipse to Create a New Spring Boot Application
 * Take a look at followings:
 * Navigating the Eclipse STS IDE (이클립스 STS IDE 살펴보자잉)
 * Creating a new Spring boot application (스프링부트 애플리케이션 작성해보자잉)
