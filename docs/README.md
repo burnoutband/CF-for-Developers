@@ -64,13 +64,11 @@ User-Provided Service (개념)
 
 `로그인 명령어 : cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation`
 
-
-
 # 5. PCF Architecture, Orgs, and Spaces
-* Take a look at followings: 
-> * PCF deployment and conceptual architecture
-> * PCF logical and component architecture
-> * PCF orgs and spaces
+* Take a look at followings:
+    > * PCF deployment and conceptual architecture
+    > * PCF logical and component architecture
+    > * PCF orgs and spaces
 
 * Global World Banking Service (요런 서비스를 개발/운영한다고 가정해보자)
 * Service Area (오홍 나의 서비스 커버리지)
