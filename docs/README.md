@@ -169,12 +169,14 @@ create your app (in the cloud foundry): cf push 명령은 cloud controller를 �
 [그림삽입] 1:36
 
 <HOWTO:>
+```
 cd projects/deployment
 git clone https://github.com/Altoros/cf-example-sinatra
 cd projects/deployment/cf-example-sinatra
 cf push
 
 manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app instance 갯수, memory limit, runtime arguments 등을 설정할 수 있다
+```
 
 * offline buildpack: cached buildpack인데, 라이브러리 종속성을 해결하기 위해 관련된 걸 모두 패키징한 빌드팩. 인터넷 연결이 필요없음.
 
