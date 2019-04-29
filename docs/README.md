@@ -116,22 +116,24 @@ cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --s
 
 
 * Push app, change app, scale app, delete app and create/use a marketplace service
-    * --> It is important for developers (윗 한줄이 개발자 입장에서 젤루 중요한 거시다)
+    --> It is important for developers (윗 한줄이 개발자 입장에서 젤루 중요한 거시다)
 
 * How to provision a marketplace service in your space using CF CLI command (마켓플레이스 서비스 생성 및 생성결과 확인 / CF CLI 로 해본다는 거시다)
 
 HOWTO:
+```
 * cf marketplace: check available marketplace service (사용가능한 서비스확인)
 * cf create-service app-autoscaler standard appAutoscaler: create service (서비스 생성)
     * app-autoscaler: service name
     * standard: plan name
     * appAutoscaler: custom your service name
 * cf service appAutoscaler: check service status you created (생성한 서비스 상태 확인)
+```
 
 * How to bind the marketplace service to your app (나의 앱과 마켓플레이스 서비스 연결: 요기서는 웹페이지에서 작업했삼)
-    * HOWTO:
+    HOWTO:
     * Login PWS -> Bind Service in this page
-    * 
+        <img src="./images/6_bind_service.png" width="600">   
         * (https://console.run.pivotal.io/organizations/6aa58522-de23-4ac2-8fe1-b7e3b6a2887f/spaces/a2d0bbb5-3e34-41b3-80a6-bea186e20352/applications/39df0f2f-022c-4647-b7ab-e8f43e2cb1ad/services)
 
     * In PCF, goto app -> settings -> environment variables: runtime에 입력되는 파라미터들임
