@@ -54,13 +54,13 @@ User-Provided Service (개념)
     * Stream Application Logs to a Service:
         * UPS 인스턴스를 사용하면 개발자는 응용 프로그램 로그를 PCF 외부에서 관리되는 syslog 호환 집계 서비스로 스트리밍 할 수 있습니다
 * Summary
-    * _ __UPS (User-Provided Service): CF에 배포된 앱이 CF 외부에 위치한 외부서비스와 통신하기 위해서 credential을 주입해주고, 앱의 로그를 외부로그집계 서비스 (syslog 호환규격)에 스트리밍 할 수 있게 한다.__ _
-    * _ We can login to PCF using the CF CLI with CF Login Command (CF CLI에서 CF login 명령으로 PCF에 로그인)_
-    * _ We can create an org using the create-org command (create-org 명령으로 org 생성)_
-    * _ We can create a space using the create-space command (create-space 명령으로 space 생성)_
-    * _ We can create a user-provided service using the cups command (cups 명령으로 user-provided service 생성)_
-    * _ We can push an app to PCF using the CF push command (CF push 명령으로 애플리케이션을 pcf에 배포)_
-    * _ 참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html _
+    * *__UPS (User-Provided Service): CF에 배포된 앱이 CF 외부에 위치한 외부서비스와 통신하기 위해서 credential을 주입해주고, 앱의 로그를 외부로그집계 서비스 (syslog 호환규격)에 스트리밍 할 수 있게 한다.__ *
+    * *We can login to PCF using the CF CLI with CF Login Command (CF CLI에서 CF login 명령으로 PCF에 로그인)*
+    * *We can create an org using the create-org command (create-org 명령으로 org 생성)*
+    * *We can create a space using the create-space command (create-space 명령으로 space 생성)*
+    * *We can create a user-provided service using the cups command (cups 명령으로 user-provided service 생성)*
+    * *We can push an app to PCF using the CF push command (CF push 명령으로 애플리케이션을 pcf에 배포)*
+    * *참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html *
 
 `로그인 명령어 : cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation`
 
