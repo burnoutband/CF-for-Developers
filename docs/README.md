@@ -91,38 +91,27 @@ User-Provided Service (개념)
     * *Applications and Resources are organized into orgs and spaces (애플리케이션과 리소스들은 org와 space로 조직화 되어 있음)*
 
 
-
-
-6. Roles, Permissions and Marketplace Services
+# 6. Roles, Permissions and Marketplace Services
 * Take a look at followings: (요런걸 살펴보시겠다)
-* PCF Roles and Their Permissions (PCF의 역할과 권한)
-* Provisioning a service from the marketplace using the web console (웹콘솔가지고 마켓플레이스에서 서비스 프로비저닝하기)
-* Provisioning a service from the marketplace using the CF CLI (CF CLI 가지고 마켓플레이스에서 서비스 프로비저닝하기)
-* What it means to bind a marketplace service to a java application (마켓플레이스 서비스를 자바 애플리케이션으로 바인드 하는 것의 의미)
+> * PCF Roles and Their Permissions (PCF의 역할과 권한)
+> * Provisioning a service from the marketplace using the web console (웹콘솔가지고 마켓플레이스에서 서비스 프로비저닝하기)
+> * Provisioning a service from the marketplace using the CF CLI (CF CLI 가지고 마켓플레이스에서 서비스 프로비저닝하기)
+> * What it means to bind a marketplace service to a java application (마켓플레이스 서비스를 자바 애플리케이션으로 바인드 하는 것의 의미)
 
 
 * PCF Roles and Permissions
 
-Role
-Permission
-Admin
-Has permissions on all orgs and spaces and can perform operational actions using the Cloud Controller API
-Admin Read-Only
-Has read-only access to all Cloud Controller API resources
-Global Auditor
-Has read-only access to all Cloud Controller API resources except for secrets such as environment variables
-Org Managers
-Can administer the org
-Org Auditors
-Can view but cannot edit user information and org quota usage information
-Org Billing Managers
-Can create and manage billing account and payment information
-Space Managers
-Can administer a space within an org
-Space Developers
-Can manage applications and services in a space
-Space Auditors
-Can view but cannot edit the space
+|Role|Permission|
+|Admin|Has permissions on all orgs and spaces and can perform operational actions using the Cloud Controller API|
+|Admin Read-Only| Has read-only access to all Cloud Controller API resources |
+|Global Auditor | Has read-only access to all Cloud Controller API resources except for secrets such as environment variables |
+|Org Managers |Can administer the org|
+|Org Auditors|Can view but cannot edit user information and org quota usage information|
+|Org Billing Managers |Can create and manage billing account and payment information |
+|Space Managers | Can administer a space within an org |
+|Space Developers |Can manage applications and services in a space |
+|Space Auditors |Can view but cannot edit the space |
+
 
 * Push app, change app, scale app, delete app and create/use a marketplace service
     * --> It is important for developers (윗 한줄이 개발자 입장에서 젤루 중요한 거시다)
