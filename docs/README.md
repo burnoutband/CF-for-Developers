@@ -102,7 +102,7 @@ User-Provided Service (개념)
 * PCF Roles and Permissions
 
 Role|Permission
----- | ----
+--- | ---
 Admin|Has permissions on all orgs and spaces and can perform operational actions using the Cloud Controller API
 Admin Read-Only| Has read-only access to all Cloud Controller API resources 
 Global Auditor | Has read-only access to all Cloud Controller API resources except for secrets such as environment variables 
