@@ -254,15 +254,17 @@ __(4) push your app again__
 
 # 9. Using Eclipse to Create a New Spring Boot Application
 * Take a look at followings:
-* Navigating the Eclipse STS IDE (이클립스 STS IDE 살펴보자잉)
-* Creating a new Spring boot application (스프링부트 애플리케이션 작성해보자잉)
+    > * Navigating the Eclipse STS IDE (이클립스 STS IDE 살펴보자잉)
+    > * Creating a new Spring boot application (스프링부트 애플리케이션 작성해보자잉)
 
 * JDK download (SE 1.8)
 * Eclispse STS IDE download
 
 <HOWTO: Creating a new Spring boot application>
+```
 Eclipse STS IDE 실행 -> file-New -> Spring Starter Project 선택
-* 
+```
+
 * jar / war -> 여기서 jar 선택한 이유는 임베디드 되어 있는 서버 컨테이너를 가지고 있고 거기서 실행될거라고 생각하기 때문임. 마치 임베디드 톰캣처럼... 
 * 
 * 
