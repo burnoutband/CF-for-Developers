@@ -133,7 +133,7 @@ HOWTO:
 * How to bind the marketplace service to your app (나의 앱과 마켓플레이스 서비스 연결: 요기서는 웹페이지에서 작업했삼)
 HOWTO:
     * Login PWS -> Bind Service in this page
-        <img src="./images/6_bind_service.png" width="600">   
+        <img src="./images/6_bind_service.png" width="700">   
         * (https://console.run.pivotal.io/organizations/6aa58522-de23-4ac2-8fe1-b7e3b6a2887f/spaces/a2d0bbb5-3e34-41b3-80a6-bea186e20352/applications/39df0f2f-022c-4647-b7ab-e8f43e2cb1ad/services)
 
     * In PCF, goto app -> settings -> environment variables: runtime에 입력되는 파라미터들임
