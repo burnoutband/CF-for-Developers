@@ -195,26 +195,29 @@ manifest.yml 을 해당 디렉토리에 포함시킬 수 있다. 여기엔 app i
 
 # Develop and Deploy a Web Service to PCF (Section 2)
 
-8. Provisioning a SQL Database from the PCF Marketplace
+# 8. Provisioning a SQL Database from the PCF Marketplace
 * Take a look at followings:
-* How to provision a database from the marketplace (마켓플레이스에서 데이터베이스 가져다가 프로비저닝하기) 
-* Using Eclipse to create a new Spring boot application (신규 스프링부트 애플리케이션 생성을 위해 이클립스 사용하기)
-* How to leverage auto-configuration to boot strap your application (너의 앱을 구동시키기 위해 자동설정을 활용하는 방법)
-* Creating your application's manifest YAML (너의 앱 매니페스트 만들기)
-* Building your application using the Gradle plugin within Eclipse (이클립스에서 Gradle 플러그인을 사용하여 너의 앱을 빌드하기)
-* Deploying your application using the cf push command (cf push 명령을 사용하여 너의 앱을 배포하기)
-* Monitoring your application PCF and sending requests to it using Postman (너의 앱 모니터링하고 포스트맨 사용하여 요청보내기)
+    > * How to provision a database from the marketplace (마켓플레이스에서 데이터베이스 가져다가 프로비저닝하기) 
+    > * Using Eclipse to create a new Spring boot application (신규 스프링부트 애플리케이션 생성을 위해 이클립스 사용하기)
+    > * How to leverage auto-configuration to boot strap your application (너의 앱을 구동시키기 위해 자동설정을 활용하는 방법)
+    > * Creating your application's manifest YAML (너의 앱 매니페스트 만들기)
+    > * Building your application using the Gradle plugin within Eclipse (이클립스에서 Gradle 플러그인을 사용하여 너의 앱을 빌드하기)
+    > * Deploying your application using the cf push command (cf push 명령을 사용하여 너의 앱을 배포하기)
+    > * Monitoring your application PCF and sending requests to it using Postman (너의 앱 모니터링하고 포스트맨 사용하여 요청보내기)
+    > * @마켓플레이스 서비스프로비저닝 -> @이클립스 사용 -> @앱구동 자동설정 -> @앱 매니페스트 생성 -> @앱 빌드 (with gradle) -> @앱 배포 (cf push) -> @앱 모니터링 및 테스트
 
-@마켓플레이스 서비스프로비저닝 -> @이클립스 사용 -> @앱구동 자동설정 -> @앱 매니페스트 생성 -> @앱 빌드 (with gradle) -> @앱 배포 (cf push)-> @앱 모니터링 및 테스트
-
-* Selecting and provisioning a SQL database from the marketplace
-    * Provisioning a Database from Marketplace
-<HOWTO: Provisioning a Database from Marketplace>
+## Selecting and provisioning a SQL database from the marketplace
+* Provisioning a Database from Marketplace
+HOWTO: Provisioning a Database from Marketplace
+```
 Access pivotal.io -> Select your Space -> click Services tab -> add service -> select clearDB MySQL DB
-        * We got DB immediately without DB installation!! This is the big benefits of Cloud Foundry.
-        * The resource for db is handled automatically by Diego Brain
-    * Checking information about DB
-<HOWTO: Checking information about DB>
+```
+    * We got DB immediately without DB installation!! This is the big benefits of Cloud Foundry.
+    * The resource for db is handled automatically by Diego Brain
+
+* Checking information about DB
+HOWTO: Checking information about DB
+```
 Access pivotal.io 
 -> Select your Space 
 -> click Services tab 
@@ -224,9 +227,9 @@ Access pivotal.io
 -> select allow 
 -> URL Redirection for clearDB vendors
 -> you can check the performance, location of your DB instance
+```
 
-
-* Binding the service to our application
+## Binding the service to our application
 <HOWTO: Binding the service to our application>
 Access pivotal.io
 -> go to your app
@@ -234,7 +237,7 @@ Access pivotal.io
 -> click the bind service button
 -> select cleardb service
 
-Summary
+* Summary
 절차요약 
 (1) service provisioning from marketplace -> (2) bind the service to you app -> (3) Restaging your app -> (4) push your app again
 * DB서비스를 앱에 bind 하면, 프로비저닝 된 서비스를 니 앱에 바인드하면 너의 앱을 다시 스테이징 하고 앱을 다시 push 해야 한다. 그리고 VCAP서비스에 의해서 런타임 파라미터에 DB서비스에 대한 Credential이 너의 앱에 주입된다.
