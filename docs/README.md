@@ -60,7 +60,7 @@ User-Provided Service (개념)
     * *We can create a space using the create-space command (create-space 명령으로 space 생성)*
     * *We can create a user-provided service using the cups command (cups 명령으로 user-provided service 생성)*
     * *We can push an app to PCF using the CF push command (CF push 명령으로 애플리케이션을 pcf에 배포)*
-    * *참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html *
+    * *참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html*
 
 `로그인 명령어 : cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation`
 
