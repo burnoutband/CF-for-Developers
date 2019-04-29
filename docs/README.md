@@ -1,7 +1,48 @@
 # Learning the Cloud Foundry for Web Developers
 
 ## Table of Contents
+2. [Setting Up Your Workspace](#2SUYW)
+3. [Navigating the PCF Console](#3NPC)
+4. [Using the CF command line interface to interact with PCF](#4UCLIWP)
+5. [PCF Architecture, Orgs, and Spaces](#5PAOS)
+6. [Roles, Permissions and Marketplace Services](#6RPMS)
+7. [Application Monitoring, Logs, and Build Packs](#7AMLBP)
+8. [Provisioning a SQL Database from the PCF Marketplace](#8PSDPM)
+9. [Using Eclipse to Create a New Spring Boot Application](#9UECSBA)
+10. [Leveraging Auto Configuration to Bootstrap Your Application](#10LACBYA)
+11. [Creating Your Application’s Manifest YAML File](#11CYAMY)
+12. [Developing Our Web Service and Building it Using Gradle](#12DOWSBG)
+13. [Deploying Your Application to PCF Using the CF Command Line](#13DYAPCCL)
+14. [Viewing the Final App and Testing with Postman](#14VFATP)
+15. [Provisioning a RabbitMQ Message Broker from the PCF Marketplace](#15PRMBPM)
+16. [Developing the Producer and Consumer Applications with Spring Boot](#16DPCASB)
+17. [How PCF Injects Properties into Your App for Auto Configuration](#17HIPYAAC)
+18. [Building Your Application Using Maven](#18BYAM)
+19. [Deploying Your Application Using the CF Command Line Without Manifest YAML File](#19DYACLWMY)
+20. [Confirming Your Application Works by Viewing Messages in the RabbitMQ Dashboard](#20CYAWVMRD)
+21. [The Course Overview](#21TCO)
+22. [CI with Jenkins and Disaster Recovery Strategies](#22CJDRS)
+23. [Security Groups and Container-to-Container Security](#23SGCCS)
+24. [Resource Limitations in PCF](#24RLCF)
+25. [Exploring the PCF Log Aggregator](#25EPLA)
+26. [Auto-Scaling Apps and the Cloud Foundry SDK](#26ASACFSDK)
+27. [Route, Volume, and User-Provided Services](#27RVUPS)
+28. [Achieve a Blue-Green Deployment](#28ABGD)
+29. [Cloud Controller and the CF API](#29CCCAPI)
+30. [Route Traffic with CF Gorouter](#30RTCGOR)
+31. [The Garden Container](#31TGC)
+32. [The Diego Brain and Allocation of Resources](#32DBAR)
+33. [The Internal PCF OAuth 2.0 Auth Server (UAA)](#33ICFOSUAA)
+34. [Understanding, Provisioning and Configuring the Config Server](#34UPCCS)
+35. [Creating and Manipulating the Discovery Server](#35CMDS)
+36. [Constructing the Circuit-Breaker Dashboard](#36CCBD)
+37. [Understanding Hystrix and Circuit- Breaker Pattern](#37UHCBP)
+38. [Bootstrapping the Microservices to Connect to the Supporting Services](#28BMCSS)
+39. [Deploying the Microservices to PCF Using a Manifest](#39DMCM)
+40. [Config, Discovery and Circuit-Breaker Dashboards](#40CDCBD)
+41. [Spring Boot Actuator and Refreshing Properties](#41SBARP)
 
+<a name="#2SUYW"></a>
 # 2. Setting Up Your Workspace
 * Required Downloads
 * Eclipse STS v4.7.0 (as our IDE)
@@ -21,6 +62,7 @@
 * manifest.yml 에 선언된 대로 앱 생성됨. 
 
 
+<a name="#3NPC"></a>
 # 3. Navigating the PCF Console
 * The differences between PCF, PWS and PCF Dev
 * Signing up for PWS and navigating the console
