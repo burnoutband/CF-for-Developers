@@ -112,7 +112,7 @@ User-Provided Service (개념)
     * _참고 링크 : https://docs.cloudfoundry.org/cf-cli/getting-started.html _
 ```
 로그인 명령어
-cf login -a https://api.run.pivotal.io -u wiredburnout@gmail.com -p xxxxxxxx --skip-ssl-validation
+cf login -a https://api.run.pivotal.io -u burnoutband39@gmail.com -p xxxxxxxx --skip-ssl-validation
 ```
 
 
